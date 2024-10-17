@@ -14,7 +14,7 @@ def solution(n):
             currentX=nextX
             currentY=nextY
         else:
-            turnCnt+=1
+            turnCnt+=1 
             currentX=currentX+Move_X_List[turnCnt%4]
             currentY=currentY+Move_Y_List[turnCnt%4]
     return answer
