@@ -1,0 +1,8 @@
+import random
+
+n = 1500
+with open("input.txt", "w") as f:
+    f.write(f"{n}\n")
+    for _ in range(n):
+        row = [str(random.randint(-10**9, 10**9)) for _ in range(n)]
+        f.write(' '.join(row) + '\n')

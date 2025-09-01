@@ -22,3 +22,6 @@ for  idx,rear in enumerate(arr):
     else:
         answer.append(rear)
 print(answer)
+
+
+
