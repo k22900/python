@@ -161,6 +161,7 @@ else:
 cnt = 0
 
 def check(s,c):
+    cnt=0
     if s:
         if c>=37:
             cnt += 1
